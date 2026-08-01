@@ -176,3 +176,13 @@ code/
 * All GPU timing uses CUDA events with an explicit device synchronize; GPU
   backends are warmed up before measurement and every config is repeated
   `--trials` times with the median reported.
+  
+## Citation
+```bash
+@article{jayakody2026kineticsim,
+  title={KineticSim: A Lightweight, High-Performance Execution Engine for Real-Time Market Simulators},
+  author={Jayakody, Shakya and Jayakody, Prarthinie},
+  journal={arXiv preprint arXiv:2606.21784},
+  year={2026}
+}
+```
