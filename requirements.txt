@@ -1,0 +1,11 @@
+# Runtime / benchmark dependencies for KineticSim.
+# The optimized + naive CUDA modules are built from src/ via ./build.sh and
+# additionally require: CUDA Toolkit >= 12.8, CMake >= 3.24, a C++17 host
+# compiler, and `pip install pybind11`.
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+pybind11>=2.11
+# torch is only needed for the PyTorch GPU baseline; install the CUDA build that
+# matches your driver, e.g.:  pip install torch --index-url https://download.pytorch.org/whl/cu128
+# torch>=2.4
