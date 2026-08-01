@@ -178,7 +178,8 @@ code/
   `--trials` times with the median reported.
   
 ## Citation
-```bash
+
+```bibtex
 @article{jayakody2026kineticsim,
   title={KineticSim: A Lightweight, High-Performance Execution Engine for Real-Time Market Simulators},
   author={Jayakody, Shakya and Jayakody, Prarthinie},
@@ -186,3 +187,4 @@ code/
   year={2026}
 }
 ```
+
